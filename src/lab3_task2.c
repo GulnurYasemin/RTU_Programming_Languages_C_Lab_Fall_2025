@@ -38,9 +38,11 @@ int main(void) {
 
 // Implement functions below
 void swap(int *x, int *y) {
-    // TODO: swap values using a temporary variable
+    int temp = *x;   // store value at address x
+    *x = *y;         // assign value at y to x
+    *y = temp;       // assign stored value to y
 }
 
 void modify_value(int *x) {
-    // TODO: multiply value by 2
+    *x = (*x) * 2;   // double the value stored at x
 }
