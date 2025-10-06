@@ -1,7 +1,7 @@
 /*
  * week4_2_struct_student.c
- * Author: [Your Name]
- * Student ID: [Your ID]
+ * Author: [Gulnur Yasemin UYGUN]
+ * Student ID: [231ADB101]
  * Description:
  *   Demonstrates defining and using a struct in C.
  *   Defines a 'Student' struct with name, id, and grade.
